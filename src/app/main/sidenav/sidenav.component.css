@@ -1,0 +1,37 @@
+img{
+        height: 100px;
+}
+.hrCstm{
+      border-color:   #ededed29;   
+}
+.eventAddDiv{
+        color: #ffffffd4 ;
+}
+.iconCstm{
+        color: white;
+}
+.eventAddDiv{
+padding: 8px 0px;
+    border-top: 1px solid #c7c7c730;
+    border-bottom: 1px solid #c7c7c730;
+}
+
+.menuTextColor{
+        font-size: 14px;
+        color: #ffffffd4 ;
+}
+
+.listMenu{
+        padding: 12px 0px;
+        color: #ffffffd4;
+}
+
+
+.subheading{
+        color: #cccccc;
+    font-size: 14px;
+    font-weight: 300;
+}
+.logoDiv{
+        margin-bottom: 24px;
+}

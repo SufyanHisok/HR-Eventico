@@ -1,0 +1,19 @@
+.topNav{
+        height: 60px;
+}
+
+.loginBtn{
+        border-radius: 50px;
+        border-left: solid 5px;
+        border-color: #f1b322;
+        transition-duration: 200ms;
+}
+.loginBtn:hover{
+        background-color: #f1b3223f;
+}
+.logoPic{
+margin-top: 5px;
+    height: 100px;
+}
+
+

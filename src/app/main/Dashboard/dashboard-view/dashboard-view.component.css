@@ -1,0 +1,21 @@
+.cstmInput{
+        border: 1px solid #dedede;
+        border-radius: 4px;
+        background: #f1f3f3;
+}
+.titleEvent{
+        font-size: 1.3rem;
+    border-radius: 0px !important;
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    background: #ffffff00 !important;
+}
+
+.cstmInput:focus{
+        box-shadow: none !important;
+}
+
+.cstmSave{
+        background-color: #25a18e !important;
+        border: none !important;
+}

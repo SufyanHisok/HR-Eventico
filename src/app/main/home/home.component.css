@@ -1,0 +1,8 @@
+.mat-drawer-container{    
+        height: 100vh;
+        overflow: hidden !important;
+}
+.sideNav{
+        width: 255px;
+        background: linear-gradient(180deg, rgba(44,19,56,1) 11%, rgba(38,14,50,1) 68%, rgba(32,9,42,1) 100%);
+}

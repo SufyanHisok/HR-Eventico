@@ -1,0 +1,45 @@
+<!-- <button class="btn btn-secondary" (click)="openOnboarding()">Click Login</button> -->
+<h3>Add Event </h3>
+<hr>
+<form #venue="ngForm" class="mt-4">
+        <div class="mb-3 col-md-4">
+          <label for="eventTitle" class="form-label">Event Name</label>
+          <input type="text" class="form-control cstmInput titleEvent" id="eventTitle" name="VenueName" [(ngModel)]="obj.VenueName" aria-describedby="" placeholder="Your Event Title">
+        </div>
+
+        <div class="mb-3 col-md-4">
+                <label for="eventDate" class="form-label">Event Time</label>
+                <input type="date" class="form-control cstmInput"  name="Date" [(ngModel)]="obj.Date" id="eventDate" aria-describedby="">
+        </div>
+
+        <div class="mb-3 col-md-4">
+             
+                <label for="eventDescription" class="form-label">Notes</label>
+                <textarea class="form-control cstmInput" name="Description" [(ngModel)]="obj.Description" aria-label="With textarea" id="eventDescription"></textarea>
+        </div>
+
+        <button (click)="SaveVenue()" type="submit" class="btn btn-primary cstmSave">Submit</button>
+      </form>
+
+
+      <h3>View All venues</h3>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Venue</th>
+            <th scope="col">Date</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of dataVenues">
+            <th scope="row">{{data?.id
+            }}</th>
+            <td>{{data?.venueName}}</td>
+            <td>{{data?.date | date}}</td>
+            <td>@{{data?.description}}</td>
+          </tr>
+
+        </tbody>
+      </table>

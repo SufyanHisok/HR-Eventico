@@ -1,0 +1,398 @@
+.WholeDiv{
+        height: 100%;
+        display: flex;
+}
+
+/* Left Content CSS */
+
+.leftDiv{
+        display: inline-table;
+    height: 100%;
+    background-color: #2C1338;
+}
+
+.logoImg{
+        width: 180px;
+        position: absolute;
+        left: -10px;
+        top: -60px;
+}
+
+.leftContent{
+        padding: 60px 40px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+}
+.leftTitle{ 
+        margin-top: 50px;
+        font-size: 26px;
+         line-height: 1.6em;
+}
+.leftSubTitle{
+        margin-top: 20px;
+    font-size: 14px;
+    color: #af9bb9;
+    line-height: 1.4rem;
+}
+
+.illustImg{
+        margin-left: 30px;
+        width: 280px;
+}
+
+/* Left Content CSS ENDD--- */
+
+
+/* Right Content CSS--- */
+
+:host ::ng-deep .mat-horizontal-stepper-header-container {
+        display: none !important;
+}
+
+.rightDiv{
+        height: 100%;
+}
+
+.rightContent{
+        padding: 60px 40px;
+        display: flex;
+        justify-content: center;
+        height: 75vh;
+        align-items: center;
+        width: 100%;
+
+}
+
+.stepContent{
+        width: 100%;
+        display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0px 120px;
+}
+.stepContentCards{
+width: 100%;
+display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.textContent{
+        text-align: center;
+}
+.textTitle{
+        font-size: 24px;
+        line-height: 1.6em;
+}
+.textDescription{
+        margin: 10px 0px;
+        font-size: 14px;
+        color: #7a727d;  
+}
+
+.companyInput{
+         border: 2px solid #ccc3d0;
+    border-radius: 6px;
+    color: #2c1338;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 12px 19px 15px 19px;
+    transition: border .2s ease;
+    width: 100%;
+}
+.continueBtn{
+        display: flex;
+    gap: 4px;
+    float: right;
+    padding: 7px 17px;
+    border-radius: 8px;
+    
+    color: #ffffff;
+   
+    background-color: #411d52;
+        border: 2px solid #411d52;
+    transition-duration: 250ms;
+}
+.continueBtn:hover{
+        border: 2px solid #2c1338;
+        background-color: #2c1338;
+        
+}
+
+/* Radio Boxes  CSS--- */
+
+.radioBox{
+        display: flex;
+        padding: 20px;
+        min-height: 80px;
+        background: #ffffff;
+        gap: 20px;
+        align-items: center;
+        border-radius: 8px;
+        border: 1px solid #f2dbfd;
+        cursor: pointer;
+        transition-duration: 250ms;
+}
+
+.radioBox:hover{
+        background-color: #f3f3f3ab;
+}
+
+.form-input input{
+        display: none;
+}
+
+.radioDiv .form-input input:checked + label{
+        background-color: #f3d9ff47;
+        border: 1px solid #e4bcf7;
+}
+
+.radioTitle{
+        font-size: 16px;
+    font-weight: 500;
+}
+
+.radioDescrip{
+        font-size: 14px;
+        color:#7a727d; 
+}
+
+.radioIcon{
+        font-size: 26px;
+    color: #7e2fa4;
+}
+
+.radioDiv{
+        display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Radio Boxes end  CSS--- */
+
+
+/* check Boxes  CSS--- */
+
+.checkBoxDiv{
+        min-height: 240px;
+        padding: 20px;
+        max-width: 230px;
+        border: 1px solid #f2dbfd;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 30px;
+        cursor: pointer;
+        transition-duration: 250ms;
+}
+.checkBoxDiv:hover{
+        background-color: #f3f3f3ab;
+}
+
+.checkText{
+        text-align: center;
+}
+
+.checkTitle{
+        font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6em;
+}
+
+.checkDescrip{
+        font-size: 14px;
+    color: #7a727d;
+    line-height: 1.6em;
+
+}
+.checkIcon{
+        width: 40px;
+    font-size: 40px;
+    height: 40px;
+    color: #67357e;
+}
+
+.checkBoxCard{
+        display: flex;
+    gap: 20px;
+}
+
+.checkBoxCard .form-input input:checked + label{
+        background-color: #f3d9ff47;
+        border: 1px solid #e4bcf7;
+}
+
+.lastText{
+        margin-top: -130px;
+}
+
+/* check Boxes end  CSS--- */
+
+/* Text ANIMATIO--- */
+
+
+.text-focus-in{animation:text-focus-in 1s cubic-bezier(.39,.575,.565,1.000) both}
+
+ @-webkit-keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}
+
+
+/* LOADING ANIMATIO--- */
+
+ .cssload-jumping{
+	position:relative;
+	display:block;
+	margin: 113px auto;
+	width:124px;
+}
+	
+.cssload-jumping, .cssload-jumping * {
+	box-sizing: border-box;
+}
+
+.cssload-jumping span {
+	display: inline-block;
+	height: 17px;
+	width: 17px;
+	background: rgb(114,9,183);
+	border-radius: 563px;
+	background-clip: padding-box;
+		-o-background-clip: padding-box;
+		-ms-background-clip: padding-box;
+		-webkit-background-clip: padding-box;
+		-moz-background-clip: padding-box;
+}
+
+.cssload-jumping span:nth-child(1) {
+	animation: scale 1.6s 0.16s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-o-animation: scale 1.6s 0.16s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-ms-animation: scale 1.6s 0.16s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-webkit-animation: scale 1.6s 0.16s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-moz-animation: scale 1.6s 0.16s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.cssload-jumping span:nth-child(2) {
+	animation: scale 1.6s 0.32s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-o-animation: scale 1.6s 0.32s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-ms-animation: scale 1.6s 0.32s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-webkit-animation: scale 1.6s 0.32s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-moz-animation: scale 1.6s 0.32s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.cssload-jumping span:nth-child(3) {
+	animation: scale 1.6s 0.48s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-o-animation: scale 1.6s 0.48s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-ms-animation: scale 1.6s 0.48s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-webkit-animation: scale 1.6s 0.48s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-moz-animation: scale 1.6s 0.48s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.cssload-jumping span:nth-child(4) {
+	animation: scale 1.6s 0.64s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-o-animation: scale 1.6s 0.64s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-ms-animation: scale 1.6s 0.64s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-webkit-animation: scale 1.6s 0.64s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-moz-animation: scale 1.6s 0.64s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.cssload-jumping span:nth-child(5) {
+	animation: scale 1.6s 0.8s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-o-animation: scale 1.6s 0.8s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-ms-animation: scale 1.6s 0.8s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-webkit-animation: scale 1.6s 0.8s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+		-moz-animation: scale 1.6s 0.8s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+
+
+@keyframes scale {
+	0% {
+		transform: scale(0);
+	}
+	25% {
+		transform: scale(0.9, 0.9);
+		background: rgba(247,37,131,0.98);
+	}
+	50% {
+		transform: scale(1, 1);
+		margin: 0 3px;
+		background: rgba(33,157,188,0.96);
+	}
+	100% {
+		transform: scale(0);
+	}
+}
+
+@-o-keyframes scale {
+	0% {
+		-o-transform: scale(0);
+	}
+	25% {
+		-o-transform: scale(0.9, 0.9);
+		background: rgba(247,37,131,0.98);
+	}
+	50% {
+		-o-transform: scale(1, 1);
+		margin: 0 3px;
+		background: rgba(33,157,188,0.96);
+	}
+	100% {
+		-o-transform: scale(0);
+	}
+}
+
+@-ms-keyframes scale {
+	0% {
+		-ms-transform: scale(0);
+	}
+	25% {
+		-ms-transform: scale(0.9, 0.9);
+		background: rgba(247,37,131,0.98);
+	}
+	50% {
+		-ms-transform: scale(1, 1);
+		margin: 0 3px;
+		background: rgba(33,157,188,0.96);
+	}
+	100% {
+		-ms-transform: scale(0);
+	}
+}
+
+@-webkit-keyframes scale {
+	0% {
+		-webkit-transform: scale(0);
+	}
+	25% {
+		-webkit-transform: scale(0.9, 0.9);
+		background: rgba(247,37,131,0.98);
+	}
+	50% {
+		-webkit-transform: scale(1, 1);
+		margin: 0 3px;
+		background: rgba(33,157,188,0.96);
+	}
+	100% {
+		-webkit-transform: scale(0);
+	}
+}
+
+@-moz-keyframes scale {
+	0% {
+		-moz-transform: scale(0);
+	}
+	25% {
+		-moz-transform: scale(0.9, 0.9);
+		background: rgba(247,37,131,0.98);
+	}
+	50% {
+		-moz-transform: scale(1, 1);
+		margin: 0 3px;
+		background: rgba(33,157,188,0.96);
+	}
+	100% {
+		-moz-transform: scale(0);
+	}
+}
+
+/* LOADING ANIMATIO END--- */

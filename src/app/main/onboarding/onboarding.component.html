@@ -1,0 +1,222 @@
+<div class="WholeDiv">
+
+        <div class="col-md-3 leftDiv">
+                
+                <img class="logoImg" src="./assets/img/isolated-layout.svg">
+
+                <div class="leftContent">
+
+                <div class="">
+                        <div class="leftTitle">
+                                A few clicks away from creating your business workspace.
+                        </div>
+                        <div class="leftSubTitle">
+                                Set up your company information and start quicky.
+                        </div>
+                </div>
+                <div>
+
+                        <img  class="illustImg" src="./assets/img/illust.png"> 
+                </div>
+
+                        
+
+                </div>
+
+                
+
+                
+
+        </div>
+
+        <div class="col-md-9 rightDiv">
+
+                <button mat-dialog-close class="btn p-3"><mat-icon>close</mat-icon></button>
+
+                <div class="rightContent">
+
+                        <mat-stepper  #stepper>
+                        
+                                <mat-step #step1>
+                                        <div class="stepContent">
+                                                <div class="textContent">
+                                                        <div class="textTitle">
+                                                        First, Let's start with your company name
+                                                        </div>
+                                                        <div class="textDescription">
+                                                                We're excited to help you get started with bizmanto and achieve your business goals
+                                                        </div>
+                                                </div>
+
+                                                <div><input class="companyInput" type="text" placeholder="Company Name"></div>
+                                                <div>
+                                                        <button class="continueBtn" matStepperNext>Continue <mat-icon>arrow_right_alt</mat-icon></button>
+                                                </div>
+                                        </div>
+                                 
+                                </mat-step>
+
+                                <mat-step #step2>
+                                        <div class="stepContent">
+                                                <div class="textContent">
+                                                        <div class="textTitle">
+                                                        How many people working
+                                                        </div>
+                                                        <div class="textDescription">
+                                                                We're excited to help you get started with bizmanto and achieve your business goals
+                                                        </div>
+                                                </div>
+
+                                                <div>
+                                                        <div class="radioDiv form">
+                                                                <div class="form-input">
+                                                                    
+                                                                        <input type="radio" id="rad1" name="radiobtn" value="1">
+                                                                        <label for="rad1" class="radioBox">
+                                                                                <mat-icon class="radioIcon">person</mat-icon>
+                                                                                <div class="radioText">
+                                                                                        <div class="radioTitle">Personal</div>
+                                                                                        <div class="radioDescrip">For the use of a single person</div>
+                                                                                </div>
+                                                                        </label>
+                                                                         
+                                                                </div>
+
+                                                                <div class="form-input">
+                                                                    
+                                                                        <input type="radio" id="rad2" name="radiobtn" value="2">
+                                                                        <label for="rad2" class="radioBox">
+                                                                                <mat-icon class="radioIcon">group</mat-icon>
+                                                                                <div class="radioText">
+                                                                                        <div class="radioTitle">For Team Members</div>
+                                                                                        <div class="radioDescrip">Collab with your teammates</div>
+                                                                                </div>
+                                                                        </label>
+                                                                         
+                                                                </div>
+
+                                                                <div class="form-input">
+                                                                    
+                                                                        <input type="radio" id="rad3" name="radiobtn" value="3">
+                                                                        <label for="rad3" class="radioBox">
+                                                                                <mat-icon class="radioIcon">groups</mat-icon>
+                                                                                <div class="radioText">
+                                                                                        <div class="radioTitle">For Organization</div>
+                                                                                        <div class="radioDescrip">Use it for the whole Organization</div>
+                                                                                </div>
+                                                                        </label>
+                                                                         
+                                                                </div>
+                                                               
+                                                                
+
+                                                        </div>
+                                                </div>
+
+                                                <div>
+                                                        
+                                                        <button class="continueBtn" matStepperNext>Continue <mat-icon>arrow_right_alt</mat-icon></button>
+                                                </div>
+
+
+
+                                        </div>
+                                </mat-step>
+
+                                <mat-step #step3>
+                                        <div class="stepContentCards">
+                                                <div class="textContent">
+                                                        <div class="textTitle">
+                                                        What modules You wanna choose
+                                                        </div>
+                                                        <div class="textDescription">
+                                                                We're excited to help you get started with bizmanto and achieve your business goals
+                                                        </div>
+                                                </div> 
+
+                                                <div class="checkBoxCard form">
+                                                        <div class="form-input">
+                                                                <input type="checkbox" id="check1" name="check1" value="1">
+
+                                                                <label for="check1" class="checkBoxDiv">
+                                                                        <mat-icon class="checkIcon">receipt_long</mat-icon>
+                                                                        <div class="checkText">
+                                                                                <div class="checkTitle">Sales</div>
+                                                                                <div class="checkDescrip">Manage Sales Pipeline and streamline Sales Order</div>
+                                                                        </div>
+                                                                </label>
+                                                        </div>
+                                                        <div class="form-input">
+                                                                <input type="checkbox" id="check2" name="check2" value="2">
+
+                                                                <label for="check2" class="checkBoxDiv">
+                                                                        <mat-icon class="checkIcon">production_quantity_limits</mat-icon>
+                                                                        <div class="checkText">
+                                                                                <div class="checkTitle">Purchase</div>
+                                                                                <div class="checkDescrip">Drive purchase management with bizmanto</div>
+                                                                        </div>
+                                                                </label>
+                                                        </div>
+                                                        <div class="form-input">
+                                                                <input type="checkbox" id="check3" name="check3" value="3">
+
+                                                                <label for="check3" class="checkBoxDiv">
+                                                                        <mat-icon class="checkIcon">precision_manufacturing</mat-icon>
+                                                                        <div class="checkText">
+                                                                                <div class="checkTitle">Production</div>
+                                                                                <div class="checkDescrip">Check every process of your production easily and simply</div>
+                                                                        </div>
+                                                                </label>
+                                                        </div>
+                                                        <div class="form-input">
+                                                                <input type="checkbox" id="check4" name="check4" value="4">
+
+                                                                <label for="check4" class="checkBoxDiv">
+                                                                        <mat-icon class="checkIcon">manage_accounts</mat-icon>
+                                                                        <div class="checkText">
+                                                                                <div class="checkTitle">RBAC</div>
+                                                                                <div class="checkDescrip">Role Based User Access</div>
+                                                                        </div>
+                                                                </label>
+                                                        </div>
+                                                </div>
+
+                                                <div>
+                                                        
+                                                        <button class="continueBtn" matStepperNext>Finish</button>
+                                                </div>
+
+                                        </div>
+                                </mat-step>
+
+                                <mat-step #step4>
+                                        <div class="stepContent">
+
+                                                <div>
+                                                        <div class="cssload-jumping">
+                                                                <span></span><span></span><span></span><span></span><span></span>
+                                                        </div>
+                                                </div>
+
+                                                <div class="textContent">
+                                                <div class="textTitle lastText" [ngClass]="{ 'text-focus-in': stepper.selectedIndex === 3 }">
+                                                        Initializing ERP Modules
+                                                </div>
+                                                <div class="checkDescrip" [ngClass]="{ 'text-focus-in': stepper.selectedIndex === 3 }">
+                                                        Setting Up Your Workspace
+                                                </div>
+                                                
+                                                </div>
+                                        </div>
+                                </mat-step>
+
+                </mat-stepper>
+
+                </div>
+               
+               
+        </div>
+
+</div>
+
+
